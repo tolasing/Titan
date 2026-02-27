@@ -1,0 +1,9 @@
+<library path="pallet_loader">
+    <class name="pallet_loader/PalletLoader"
+           type="pallet_loader::PalletLoader"
+           base_class_type="hardware_interface::ActuatorInterface">
+         <description>
+            pallet_loader hardware interface.
+         </description>
+        </class>
+</library>

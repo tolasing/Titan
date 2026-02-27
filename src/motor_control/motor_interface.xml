@@ -1,0 +1,9 @@
+<library path="motor_control">
+    <class name="motor_control/MotorControl"
+           type="motor_control::MotorControl"
+           base_class_type="hardware_interface::SystemInterface">
+         <description>
+            ros2_control minimal hardware interface template
+         </description>
+        </class>
+</library>

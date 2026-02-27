@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="prototype">
+
+<!--<xacro:include filename="$(find plane)/urdf/hardware_interface.xacro"/>-->
+
+ 
+    <material name="white">
+	    <color rgba="1 1 1 1"/>
+    </material>
+
+
+    <link name="world">
+        
+    </link>
+
+    <joint name="world_joint" type="fixed">
+        <origin xyz="0 0 0.5" rpy="0 0 0" />
+        <parent link="world" />
+        <child link="plane_link_cam" />
+    </joint>
+    
+    <joint name="imu_joint" type="fixed">
+        <origin xyz="1.0 0 1.0" rpy="-1.57 -1.57 0" />
+        <parent link="world" />
+        <child link="plane_link_cam" />
+        <axis xyz="0.0 0.0 1.0"/>
+    </joint>
+
+    <link name="plane_link_cam">
+    <visual>
+      <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.05"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    </link>   
+
+    
+</robot>

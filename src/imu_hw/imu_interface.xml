@@ -1,0 +1,7 @@
+<library path="imu_interface">
+  <class name="imu_interface/Imu_Sensor"
+         type="imu_interface::Imu_Sensor"
+         base_class_type="hardware_interface::SensorInterface">
+    <description>imu sensor hardware interface </description>
+  </class>
+</library>

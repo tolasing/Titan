@@ -1,0 +1,10 @@
+publisher_forward_position_controller:
+  ros__parameters:
+
+    wait_sec_between_publish: 5
+    publish_topic: "/forward_position_controller/commands"
+
+    goal_names: ["up", "down","stop"]
+    up: [1.0]
+    down: [0.0]
+    stop: [3.0]
