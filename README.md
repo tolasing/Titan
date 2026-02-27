@@ -1,14 +1,17 @@
-# R.O.S.I.E.
-**Robot Operating System Integrated Exoskeleton**
+# Titan
+**Telemetric Inventory Transport Autonomous Navigator**
 
-R.O.S.I.E. is an autonomous security robot designed to bridge the gap between physical surveillance and natural language interaction. By integrating **ROS 2** for navigation and hardware control with **ChatGPT** for cognitive reasoning, R.O.S.I.E. doesn't just monitor—it understands and communicates.
+TITAN is a high-performance Autonomous Mobile Robot (AMR) specifically engineered for warehouse logistics and automated material handling. Evolved from the R.O.S.I.E. framework, TITAN leverages **ROS 2** for precision navigation and **ChatGPT** for high-level task orchestration and natural language inventory queries.
 
+---
+
+## 🚀 Warehouse Capabilities
+* **Dynamic Obstacle Avoidance:** Optimized for high-traffic environments with moving personnel and forklifts.
+* **Precision Docking:** Specialized routines for aligning with conveyor belts or charging stations.
 ---
 
 ## 🌟 Key Features
 * **LLM-Powered Interaction:** Integrated with OpenAI’s GPT API to allow users to interact with the robot using natural language.
-* **Autonomous Surveillance:** Real-time monitoring and threat detection.
-* **Voice Synthesis & Recognition:** Enables R.O.S.I.E. to respond to queries and issue verbal warnings.
 * **Dynamic Path Planning:** Optimized for indoor environments with obstacle avoidance and safety protocols.
 
 ---
@@ -32,8 +35,8 @@ R.O.S.I.E. is an autonomous security robot designed to bridge the gap between ph
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/tolas92/R.O.S.I.E.git](https://github.com/tolas92/R.O.S.I.E.git)
-   cd R.O.S.I.E.
+   git clone [https://github.com/tolas92/Titan.git](https://github.com/tolas92/Titan.git)
+   cd Titan
 2. **Install Dependencies:**
    ```bash
    rosdep install --from-paths src --ignore-src -r -y
